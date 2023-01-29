@@ -1,55 +1,55 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;                                                 :
-;     hotstrings and hotkeys                      ;
-;     FFrizz | frizlabz                           ;
-;     Language: AHK                               ;
-;     Uses: PineScript                            ;
-;                                                 ;
-;   - hotstrings                                  ; 
-;   to be used with pinescript					  ;										
-;   hotstring unlike hotkeys are sequences of	  ;														
-;   keys that are pressed in order to trigger	  ;														
-;   a hotstring. hotstrings are not limited to	  ;														
-;   a single key press. hotstrings are used		  ;													
-;   to insert text into the current window.		  ;													
-;                                                 ;
-;   when the sequence is completed it will		  ;													
-;   remove the sequence and insert the text		  ;													
-;   editor into the current window.				  ;											
-;												  ;
-;   in the code hotstrings are denoted by		  ;													
-;   the *: prefix. hotstrings are triggered		  ;													
-;   by the :: suffix. the text to be inserted	  ;														
-;   is denoted by the .... suffix. the text		  ;													
-;   to be inserted is the text between the		  ;													
-;   .... suffix and the :: suffix.				  ;											
-;												  ; 												
-;   - hotkeys								  	  ;																
-;   are not denoted by a :: or :*:				  ;											
-;   they only have the suffix, ::				  ;											
-;   and are triggered when the specified		  ;													
-;   hotkey is pressed. hotkeys are used			  ;												
-;   to trigger a script or a function			  ;												
-;   in the script.								  ;							
-;                                                 ;
-;   for example in this script the left alt		  ;													
-;   and the j,k,l,i keys are used to move		  ;													
-;   the cursor left, down, right, and up		  ;													
-;                                                 ;
-;   or                                            ;
-;                                                 ;
-;   the left alt and space is a backspace		  ;													
-;                                                 ;
-; you can type a built in prefix followed by	  ;														
-; help.. to have a pop up show you the options	  ;														
-; for that prefix or type help.help.. to see	  ;														
-; 	options for avalible prefixes.				  ;											
-;                                                 ;
-; once you have compiled it you should be able    ;
-; to start using it.. you can also add it to	  ;
-; the start up directory and you wont have to	  ;
-; ever mess with it	                              ;							
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;                                                
+;     hotstrings and hotkeys                     
+;     FFrizz | frizlabz                          
+;     Language: AHK                              
+;     Uses: PineScript                           
+;                                                
+;   - hotstrings                                 
+;   to be used with pinescript					 		
+;   hotstring unlike hotkeys are sequences of	 						
+;   keys that are pressed in order to trigger	 						
+;   a hotstring. hotstrings are not limited to	 						
+;   a single key press. hotstrings are used		 					
+;   to insert text into the current window.		 					
+;                                                
+;   when the sequence is completed it will		 					
+;   remove the sequence and insert the text		 					
+;   editor into the current window.				 			
+;												 
+;   in the code hotstrings are denoted by		 					
+;   the *: prefix. hotstrings are triggered		 					
+;   by the :: suffix. the text to be inserted	 						
+;   is denoted by the .... suffix. the text		 					
+;   to be inserted is the text between the		 					
+;   .... suffix and the :: suffix.				 			
+;												 					
+;   - hotkeys								  	 								
+;   are not denoted by a :: or :*:				 			
+;   they only have the suffix, ::				 			
+;   and are triggered when the specified		 					
+;   hotkey is pressed. hotkeys are used			 				
+;   to trigger a script or a function			 				
+;   in the script.								 
+;                                                
+;   for example in this script the left alt		 					
+;   and the j,k,l,i keys are used to move		 					
+;   the cursor left, down, right, and up		 					
+;                                                
+;   or                                           
+;                                                
+;   the left alt and space is a backspace		 					
+;                                                
+; you can type a built in prefix followed by	 						
+; help.. to have a pop up show you the options	 						
+; for that prefix or type help.help.. to see	 						
+; 	options for avalible prefixes.				 			
+;                                                
+; once you have compiled it you should be able   
+; to start using it.. you can also add it to	 
+; the start up directory and you wont have to	 
+; ever mess with it	                             
+
 #SingleInstance, Force
 #InstallKeybdHook
 #NoEnv
