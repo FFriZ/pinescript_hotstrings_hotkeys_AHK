@@ -882,96 +882,96 @@ return
 
 ;--------------------- MATRIXs --------------------
 	;	Matrix.new
-:*:m.nf..::matrix.new<float>(){right}{backspace}
-:*:m.ni..::matrix.new<int>(){right}{backspace}
-:*:m.nbool..::matrix.new<bool>(){right}{backspace}
-:*:m.nl..::matrix.new<line>(){right}{backspace}
-:*:m.nb..::matrix.new<box>(){right}{backspace}
-:*:m.nlbl..::matrix.new<label>(){right}{backspace}
-:*:m.nlf..::matrix.new<linefill>(){right}{backspace}
-:*:m.nc..::matrix.new<color>(){right}{backspace}
-:*:m.ns..::matrix.new<string>(){right}{backspace}
-:*:m.nt..::matrix.new<table>(){right}{backspace}
+:*:m.nf..::#{left}matrix.new<float>(){backspace}{left}
+:*:m.ni..::#{left}matrix.new<int>(){backspace}{left}
+:*:m.nbool..::#{left}matrix.new<bool>(){backspace}{left}
+:*:m.nl..::#{left}matrix.new<line>(){backspace}{left}
+:*:m.nb..::#{left}matrix.new<box>(){backspace}{left}
+:*:m.nlbl..::#{left}matrix.new<label>(){backspace}{left}
+:*:m.nlf..::#{left}matrix.new<linefill>(){backspace}{left}
+:*:m.nc..::#{left}matrix.new<color>(){backspace}{left}
+:*:m.ns..::#{left}matrix.new<string>(){backspace}{left}
+:*:m.nt..::#{left}matrix.new<table>(){backspace}{left}
 	
 ; new Matrix
-:*:m.nlinef..:: = matrix.new<linefill>(){right}{backspace}
-:*:m.nint..:: = matrix.new<int>(){right}{backspace}
-:*:m.nfloat..:: = matrix.new<float>(){right}{backspace}
-:*:m.nbool..:: = matrix.new<bool>(){right}{backspace}
-:*:m.nline..:: = matrix.new<line>(){right}{backspace}
-:*:m.nbox..:: = matrix.new<box>(){right}{backspace}
-:*:m.nlabel..:: = matrix.new<label>(){right}{backspace}
-:*:m.nstring..:: = matrix.new<string>(){right}{backspace}
-:*:m.ntable..:: = matrix.new<table>(){right}{backspace}
-:*:m.ncolor..:: = matrix.new<color>(){right}{backspace}
+:*:m.nlinef..::#{left}matrix.new<linefill>(){backspace}{left}
+:*:m.nint..::#{left}matrix.new<int>(){backspace}{left}
+:*:m.nfloat..::#{left}matrix.new<float>(){backspace}{left}
+:*:m.nbool..::#{left}matrix.new<bool>(){backspace}{left}
+:*:m.nline..::#{left}matrix.new<line>(){backspace}{left}
+:*:m.nbox..::#{left}matrix.new<box>(){backspace}{left}
+:*:m.nlabel..::#{left}matrix.new<label>(){backspace}{left}
+:*:m.nstring..::#{left}matrix.new<string>(){backspace}{left}
+:*:m.ntable..::#{left}matrix.new<table>(){backspace}{left}
+:*:m.ncolor..::#{left}matrix.new<color>(){backspace}{left}
 
 	
 	;	Matrix Bulit-ins Functions
-:*:m.acol..::matrix.add_col(){right}{backspace}{Left}
-:*:m.afrom..::matrix.add_row(,0,0,array.from()){right 2}{backspace 2}{left 2}
-:*:m.arow..::matrix.add_row(){right}{backspace}{Left}
-:*:m.avg..::matrix.avg(){right}{backspace}{Left}
-:*:m.col..::matrix.col(){right}{backspace}{Left}
-:*:m.cols..::matrix.columns(){right}{backspace}{Left}
-:*:m.concat..::matrix.concat(){right}{backspace}{Left}
-:*:m.copy..::matrix.copy(){right}{backspace}{Left}
-:*:m.det..::matrix.det(){right}{backspace}{Left}
-:*:m.diff..::matrix.diff(){right}{backspace}{Left}
-:*:m.evals..::matrix.eigenvalues(){right}{backspace}{Left}
-:*:m.evecs..::matrix.eigenvectors(){right}{backspace}{Left}
-:*:m.isadiag..::matrix.is_antidiagonal(){right}{backspace}{Left}
-:*:m.count..::matrix.elements_count(){right}{backspace}{Left}
-:*:m.fill..::matrix.fill(){right}{backspace}{Left}
-:*:m.get..::matrix.get(){right}{backspace}{Left}
-:*:m.inv..::matrix.inv(){right}{backspace}{Left}
-:*:m.ias..::matrix.is_antisymmetric(){right}{backspace}{Left}
-:*:m.ibinary..::matrix.is_binary(){right}{backspace}{Left}
-:*:m.idiag..::matrix.is_diagonal(){right}{backspace}{Left}
-:*:m.iid..::matrix.is_identity(){right}{backspace}{Left}
-:*:m.isquare..::matrix.is_square(){right}{backspace}{Left}
-:*:m.istoch..::matrix.is_stochastic(){right}{backspace}{Left}
-:*:m.isym..::matrix.is_symmetric(){right}{backspace}{Left}
-:*:m.itri..::matrix.is_triangular(){right}{backspace}{Left}
-:*:m.izero..::matrix.is_zero(){right}{backspace}{Left}
-:*:m.kron..::matrix.kron(){right}{backspace}{Left}
-:*:m.max..::matrix.max(){right}{backspace}{Left}
-:*:m.median..::matrix.median(){right}{backspace}{Left}
-:*:m.min..::matrix.min(){right}{backspace}{Left}
-:*:m.mode..::matrix.mode(){right}{backspace}{Left}
-:*:m.mult..::matrix.mult(){right}{backspace}{Left}
-:*:m.pinv..::matrix.pinv(){right}{backspace}{Left}
-:*:m.pow..::matrix.pow(){right}{backspace}{Left}
-:*:m.rank..::matrix.rank(){right}{backspace}{Left}
-:*:m.reshape..::matrix.reshape(){right}{backspace}{Left}
-:*:m.rcol..::matrix.remove_col(){right}{backspace}{Left}
-:*:m.rrow..::matrix.remove_row(){right}{backspace}{Left} 
-:*:m.reverse..::matrix.reverse(){right}{backspace}{Left}
-:*:m.row..::matrix.row(){right}{backspace}{Left}
-:*:m.rows..::matrix.rows(){right}{backspace}{Left}
-:*:m.set..::matrix.set(){right}{backspace}{Left}
-:*:m.sort..::matrix.sort(){right}{backspace}{Left}
-:*:m.submatrix..::matrix.submatrix(){right}{backspace}{Left}()
-:*:m.sum..::matrix.sum(){right}{backspace}{Left}
-:*:m.scols..::matrix.swap_columns(){right}{backspace}{Left}
-:*:m.srows..::matrix.swap_rows(){right}{backspace}{Left}
-:*:m.trace..::matrix.trace(){right}{backspace}{Left}
-:*:m.trans..::matrix.transpose(){right}{backspace}{Left}
-:*:if.mc..::m_cols = matrix.columns(m){right}{backspace}`n`tif m_cols`n{space 4}
-:*:if.mr..::m_rows = matrix.rows(m){right}{backspace}`n`tif m_rows`n{space 4}
+:*:m.acol..::#{left}matrix.add_col(){backspace}{Left}
+:*:m.afrom..::#{left}matrix.add_row(,0,0,array.from()){backspace 2}{left 2}
+:*:m.arow..::#{left}matrix.add_row(){backspace}{Left}
+:*:m.avg..::#{left}matrix.avg(){backspace}{Left}
+:*:m.col..::#{left}matrix.col(){backspace}{Left}
+:*:m.cols..::#{left}matrix.columns(){backspace}{Left}
+:*:m.concat..::#{left}matrix.concat(){backspace}{Left}
+:*:m.copy..::#{left}matrix.copy(){backspace}{Left}
+:*:m.det..::#{left}matrix.det(){backspace}{Left}
+:*:m.diff..::#{left}matrix.diff(){backspace}{Left}
+:*:m.evals..::#{left}matrix.eigenvalues(){backspace}{Left}
+:*:m.evecs..::#{left}matrix.eigenvectors(){backspace}{Left}
+:*:m.isadiag..::#{left}matrix.is_antidiagonal(){backspace}{Left}
+:*:m.count..::#{left}matrix.elements_count(){backspace}{Left}
+:*:m.fill..::#{left}matrix.fill(){backspace}{Left}
+:*:m.get..::#{left}matrix.get(){backspace}{Left}
+:*:m.inv..::#{left}matrix.inv(){backspace}{Left}
+:*:m.ias..::#{left}matrix.is_antisymmetric(){backspace}{Left}
+:*:m.ibinary..::#{left}matrix.is_binary(){backspace}{Left}
+:*:m.idiag..::#{left}matrix.is_diagonal(){backspace}{Left}
+:*:m.iid..::#{left}matrix.is_identity(){backspace}{Left}
+:*:m.isquare..::#{left}matrix.is_square(){backspace}{Left}
+:*:m.istoch..::#{left}matrix.is_stochastic(){backspace}{Left}
+:*:m.isym..::#{left}matrix.is_symmetric(){backspace}{Left}
+:*:m.itri..::#{left}matrix.is_triangular(){backspace}{Left}
+:*:m.izero..::#{left}matrix.is_zero(){backspace}{Left}
+:*:m.kron..::#{left}matrix.kron(){backspace}{Left}
+:*:m.max..::#{left}matrix.max(){backspace}{Left}
+:*:m.median..::#{left}matrix.median(){backspace}{Left}
+:*:m.min..::#{left}matrix.min(){backspace}{Left}
+:*:m.mode..::#{left}matrix.mode(){backspace}{Left}
+:*:m.mult..::#{left}matrix.mult(){backspace}{Left}
+:*:m.pinv..::#{left}matrix.pinv(){backspace}{Left}
+:*:m.pow..::#{left}matrix.pow(){backspace}{Left}
+:*:m.rank..::#{left}matrix.rank(){backspace}{Left}
+:*:m.reshape..::#{left}matrix.reshape(){backspace}{Left}
+:*:m.rcol..::#{left}matrix.remove_col(){backspace}{Left}
+:*:m.rrow..::#{left}matrix.remove_row(){backspace}{Left} 
+:*:m.reverse..::#{left}matrix.reverse(){backspace}{Left}
+:*:m.row..::#{left}matrix.row(){backspace}{Left}
+:*:m.rows..::#{left}matrix.rows(){backspace}{Left}
+:*:m.set..::#{left}matrix.set(){backspace}{Left}
+:*:m.sort..::#{left}matrix.sort(){backspace}{Left}
+:*:m.submatrix..::#{left}matrix.submatrix(){backspace}{Left}
+:*:m.sum..::#{left}matrix.sum(){backspace}{Left}
+:*:m.scols..::#{left}matrix.swap_columns(){backspace}{Left}
+:*:m.srows..::#{left}matrix.swap_rows(){backspace}{Left}
+:*:m.trace..::#{left}matrix.trace(){backspace}{Left}
+:*:m.trans..::#{left}matrix.transpose(){backspace}{Left}
+:*:if.mc..::#{left}m_cols = matrix.columns(m){backspace}`n`tif m_cols`n{space 4}
+:*:if.mr..::#{left}m_rows = matrix.rows(m){backspace}`n`tif m_rows`n{space 4}
 
 
 ;---------------------- ARRAYs --------------------
 ;	Array.new
-:*:a.nf..::array.new<float>(){right}{backspace}{Left}     
-:*:a.ni..::array.new<int>(){right}{backspace}{Left}
-:*:a.nbool..::array.new<bool>(){right}{backspace}{Left}
-:*:a.nstr..::array.new<string>(){right}{backspace}{Left}
-:*:a.nc..::array.new<color>(){right}{backspace}{Left}
-:*:a.nlf..::array.new<linefill>(){right}{backspace}{Left}
-:*:a.nt..::array.new<table>(){right}{backspace}{Left}
-:*:a.nl..::array.new<line>(){right}{backspace}{Left}
-:*:a.nlbl..::array.new<label>(){right}{backspace}{Left}
-:*:a.nb..::array.new<box>(){right}{backspace}{Left}
+:*:a.nf..::#{left}array.new<float>(){backspace}{Left}     
+:*:a.ni..::#{left}array.new<int>(){backspace}{Left}
+:*:a.nbool..::#{left}array.new<bool>(){backspace}{Left}
+:*:a.nstr..::#{left}array.new<string>(){backspace}{Left}
+:*:a.nc..::#{left}array.new<color>(){backspace}{Left}
+:*:a.nlf..::#{left}array.new<linefill>(){backspace}{Left}
+:*:a.nt..::#{left}array.new<table>(){backspace}{Left}
+:*:a.nl..::#{left}array.new<line>(){backspace}{Left}
+:*:a.nlbl..::#{left}array.new<label>(){backspace}{Left}
+:*:a.nb..::#{left}array.new<box>(){backspace}{Left}
 					
 ;	Array.new identifier
 
@@ -987,56 +987,56 @@ return
 :*:a.string..::= array.new<string>(){right}{backspace}
 					
 ;	Array Bulit-ins Functiona_
-:*:a.avg..::array.avg(){right}{backspace}{Left}
-:*:a.bis..::array.binary_search(){right}{backspace}{Left}
-:*:a.bisl..::array.binary_search_leftmost(){right}{backspace}{Left}
-:*:a.bisr..::array.binary_search_rightmost(){right}{backspace}{Left}
-:*:a.clear..::array.clear(){right}{backspace}{Left}
-:*:a.concat..::array.concat(){right}{backspace}{Left}
-:*:a.copy..::array.copy(){right}{backspace}{Left}
-:*:a.covar..::array.covariance(){right}{backspace}{Left}
-:*:a.fill..::array.fill(){right}{backspace}{Left}
-:*:a.from..::array.from(){right}{backspace}{Left}
-:*:a.get..::array.get(){right}{backspace}{Left}
-:*:a.includes..::array.includes(){right}{backspace}{Left}
-:*:a.indexof..::array.indexof(){right}{backspace}{Left}
-:*:a.insert..::array.insert(){right}{backspace}{Left}
-:*:a.join..::array.join(){right}{backspace}{Left}
-:*:a.liof..::array.lastindexof(){right}{backspace}{Left}
-:*:a.max..::array.max(){right}{backspace}{Left}
-:*:a.median..::array.median(){right}{backspace}{Left}
-:*:a.min..::array.min(){right}{backspace}{Left}
-:*:a.mode..::array.mode(){right}{backspace}{Left}
-:*:a.pr..::array.percentrank(){right}{backspace}{Left}
-:*:a.pnr..::array.percentile_nearest_rank(){right}{backspace}{Left}
-:*:a.pli..::array.percentile_linear_interpolation(){right}{backspace}{Left}
-:*:a.pop..::array.pop(){right}{backspace}{Left}
-:*:a.push..::array.push(){right}{backspace}{Left}
-:*:a.range..::array.range(){right}{backspace}{Left}
-:*:a.remove..::array.remove(){right}{backspace}{Left}
-:*:a.rev..::array.reverse(){right}{backspace}{Left}
-:*:a.set..::array.set(){right}{backspace}{Left}
-:*:a.shift..::array.shift(){right}{backspace}{Left}
-:*:a.size..::array.size(){right}{backspace}{Left}
-:*:a.slice..::array.slice(){right}{backspace}{Left}
-:*:a.sort..::array.sort(){right}{backspace}{Left}
-:*:a.sindices..::array.sort_indices(){right}{backspace}{Left}
-:*:a.stand..::array.standardize(){right}{backspace}{Left}
-:*:a.std..::array.stdev(){right}{backspace}{Left}
-:*:a.sum..::array.sum(){right}{backspace}{Left}
-:*:a.un..::array.unshift(){right}{backspace}{Left}
-:*:a.var..::array.variance(){right}{backspace}{Left}
-:*:if.as..::a_size = array.size(a){right}{backspace}`n`tif a_size`n{space 4}
+:*:a.avg..::#{left}array.avg(){backspace}{Left}
+:*:a.bis..::#{left}array.binary_search(){backspace}{Left}
+:*:a.bisl..::#{left}array.binary_search_leftmost(){backspace}{Left}
+:*:a.bisr..::#{left}array.binary_search_rightmost(){backspace}{Left}
+:*:a.clear..::#{left}array.clear(){backspace}{Left}
+:*:a.concat..::#{left}array.concat(){backspace}{Left}
+:*:a.copy..::#{left}array.copy(){backspace}{Left}
+:*:a.covar..::#{left}array.covariance(){backspace}{Left}
+:*:a.fill..::#{left}array.fill(){backspace}{Left}
+:*:a.from..::#{left}array.from(){backspace}{Left}
+:*:a.get..::#{left}array.get(){backspace}{Left}
+:*:a.includes..::#{left}array.includes(){backspace}{Left}
+:*:a.indexof..::#{left}array.indexof(){backspace}{Left}
+:*:a.insert..::#{left}array.insert(){backspace}{Left}
+:*:a.join..::#{left}array.join(){backspace}{Left}
+:*:a.liof..::#{left}array.lastindexof(){backspace}{Left}
+:*:a.max..::#{left}array.max(){backspace}{Left}
+:*:a.median..::#{left}array.median(){backspace}{Left}
+:*:a.min..::#{left}array.min(){backspace}{Left}
+:*:a.mode..::#{left}array.mode(){backspace}{Left}
+:*:a.pr..::#{left}array.percentrank(){backspace}{Left}
+:*:a.pnr..::#{left}array.percentile_nearest_rank(){backspace}{Left}
+:*:a.pli..::#{left}array.percentile_linear_interpolation(){backspace}{Left}
+:*:a.pop..::#{left}array.pop(){backspace}{Left}
+:*:a.push..::#{left}array.push(){backspace}{Left}
+:*:a.range..::#{left}array.range(){backspace}{Left}
+:*:a.remove..::#{left}array.remove(){backspace}{Left}
+:*:a.rev..::#{left}array.reverse(){backspace}{Left}
+:*:a.set..::#{left}array.set(){backspace}{Left}
+:*:a.shift..::#{left}array.shift(){backspace}{Left}
+:*:a.size..::#{left}array.size(){backspace}{Left}
+:*:a.slice..::#{left}array.slice(){backspace}{Left}
+:*:a.sort..::#{left}array.sort(){backspace}{Left}
+:*:a.sindices..::#{left}array.sort_indices(){backspace}{Left}
+:*:a.stand..::#{left}array.standardize(){backspace}{Left}
+:*:a.std..::#{left}array.stdev(){backspace}{Left}
+:*:a.sum..::#{left}array.sum(){backspace}{Left}
+:*:a.un..::#{left}array.unshift(){backspace}{Left}
+:*:a.var..::#{left}array.variance(){backspace}{Left}
+:*:if.as..::#{left}a_size = array.size(a){backspace}`n`tif a_size`n{space 4}
 
 
 ;	Color Functions
-:*:c.b..::color.b(){right}{backspace}
-:*:c.fg..::color.from_gradient(){right}{backspace}
-:*:c.g..::color.g(){right}{backspace}
-:*:c.r..::color.r(){right}{backspace}
-:*:c.rgb..::color.rgb(){right}{backspace}
-:*:c.t..::color.t(){right}{backspace}
-:*:c.n..::color.new(,50){right}{backspace}{left}{shift down}{left 3}{shift up}
+:*:c.b..::#{left}color.b(){backspace}{left}
+:*:c.fg..::#{left}color.from_gradient(){backspace}{left}
+:*:c.g..::#{left}color.g(){backspace}{left}
+:*:c.r..::#{left}color.r(){backspace}{left}
+:*:c.rgb..::#{left}color.rgb(){backspace}{left}
+:*:c.t..::#{left}color.t(){backspace}{left}
+:*:c.n#{left}..::#{left}color.new(,50){backspace}{left}{shift doweft 3}{shift up}
 :*:indianred..::{#}cd5c5c
 :*:lightcoral..::{#}f08080
 :*:salmon..::{#}fa8072
@@ -1151,36 +1151,36 @@ return
 :*:darkslategray..::{#}2f4f4f
 :*:black..::{#}000000
 :*:f.c.random..::randomc(trasp = 0){right}{backspace} => color.rgb(math.random(0, 255){right}{backspace}){right}{backspace}, math.random(0, 255){right}{backspace}, math.random(0, 255){right}{backspace},transp){right}{backspace}`n
-:*:c.random..::randomc(0){right}{backspace}
+:*:c.random..::#{left}randomc(0){backspace}{left}
 :*:c.fg..::chart.fg_color
 :*:c.bg..::chart.bg_color
 
 
 
 ;	Box Functions
-:*:b.sextend..::box.set_extend(){right}{backspace}{Left}
-:*:b.delete..::box.delete(){right}{backspace}{Left}
-:*:b.copy..::box.copy(){right}{backspace}{Left}
-:*:b.gbot..::box.get_bottom(){right}{backspace}{Left}
-:*:b.gleft..::box.get_left(){right}{backspace}{Left}
-:*:b.gright..::box.get_right(){right}{backspace}{Left}
-:*:b.gtop..::box.get_top(){right}{backspace}{Left}
-:*:b.sbgcolor..::box.set_bgcolor(){right}{backspace}{Left}
-:*:b.sbcolor..::box.set_border_color(){right}{backspace}{Left}
-:*:b.sbstyle..::box.set_border_style(){right}{backspace}{Left}
-:*:b.sbwidth..::box.set_border_width(){right}{backspace}{Left}
-:*:b.stext..::box.set_text(){right}{backspace}{Left}
-:*:b.stcolor..::box.set_text_color(){right}{backspace}{Left}
-:*:b.sthalign..::box.set_text_halign(){right}{backspace}{Left}
-:*:b.stsize..::box.set_text_size(){right}{backspace}{Left}
-:*:b.stvalign..::box.set_text_valign(){right}{backspace}{Left}
-:*:b.stwrap..::box.set_text_wrap(){right}{backspace}{Left}
-:*:b.stop..::box.set_top(){right}{backspace}{Left}
-:*:b.srbottom..::box.set_rightbottom(){right}{backspace}{Left}
-:*:b.sleft..::box.set_left(){right}{backspace}{Left}
-:*:b.sbot..::box.set_bottom(){right}{backspace}{Left}
-:*:b.sright..::box.set_right(){right}{backspace}{Left}
-:*:b.sltop..::box.set_lefttop(){right}{backspace}{Left}
+:*:b.sextend..::#{left}box.set_extend(){backspace}{Left}
+:*:b.delete..::#{left}box.delete(){backspace}{Left}
+:*:b.copy..::#{left}box.copy(){backspace}{Left}
+:*:b.gbot..::#{left}box.get_bottom(){backspace}{Left}
+:*:b.gleft..::#{left}box.get_left(){backspace}{Left}
+:*:b.gright..::#{left}box.get_right(){backspace}{Left}
+:*:b.gtop..::#{left}box.get_top(){backspace}{Left}
+:*:b.sbgcolor..::#{left}box.set_bgcolor(){backspace}{Left}
+:*:b.sbcolor..::#{left}box.set_border_color(){backspace}{Left}
+:*:b.sbstyle..::#{left}box.set_border_style(){backspace}{Left}
+:*:b.sbwidth..::#{left}box.set_border_width(){backspace}{Left}
+:*:b.stext..::#{left}box.set_text(){backspace}{Left}
+:*:b.stcolor..::#{left}box.set_text_color(){backspace}{Left}
+:*:b.sthalign..::#{left}box.set_text_halign(){backspace}{Left}
+:*:b.stsize..::#{left}box.set_text_size(){backspace}{Left}
+:*:b.stvalign..::#{left}box.set_text_valign(){backspace}{Left}
+:*:b.stwrap..::#{left}box.set_text_wrap(){backspace}{Left}
+:*:b.stop..::#{left}box.set_top(){backspace}{Left}
+:*:b.srbottom..::#{left}box.set_rightbottom(){backspace}{Left}
+:*:b.sleft..::#{left}box.set_left(){backspace}{Left}
+:*:b.sbot..::#{left}box.set_bottom(){backspace}{Left}
+:*:b.sright..::#{left}box.set_right(){backspace}{Left}
+:*:b.sltop..::#{left}box.set_lefttop(){backspace}{Left}
 					
 
 ;	Input Functions
@@ -1201,23 +1201,23 @@ return
 
 
 ;	Label Functions
-:*:lbl.copy..::label.copy(){right}{backspace}{Left}
-:*:lbl.delete..::label.delete(){right}{backspace}{Left}
-:*:lbl.gtext..::label.get_text(){right}{backspace}{Left}
-:*:lbl.gx..::label.get_x(){right}{backspace}{Left}
-:*:lbl.gy..::label.get_y(){right}{backspace}{Left}
-:*:lbl.scolor..::label.set_color(){right}{backspace}{Left}
-:*:lbl.ssize..::label.set_size(){right}{backspace}{Left}
-:*:lbl.sstyle..::label.set_style(){right}{backspace}{Left}
-:*:lbl.stext..::label.set_text(){right}{backspace}{Left}
-:*:lbl.stalign..::label.set_textalign(){right}{backspace}{Left}
-:*:lbl.stcolor..::label.set_textcolor(){right}{backspace}{Left}
-:*:lbl.sttip..::label.set_tooltip(){right}{backspace}{Left}
-:*:lbl.sx..::label.set_x(){right}{backspace}{Left}
-:*:lbl.sxloc..::label.set_xloc(){right}{backspace}{Left}
-:*:lbl.sxy..::label.set_xy(){right}{backspace}{Left}
-:*:lbl.sy..::label.set_y(){right}{backspace}{Left}
-:*:lbl.syloc..::label.set_yloc(){right}{backspace}{Left}
+:*:lbl.copy..::#{left}label.copy(){backspace}{Left}
+:*:lbl.delete..::#{left}label.delete(){backspace}{Left}
+:*:lbl.gtext..::#{left}label.get_text(){backspace}{Left}
+:*:lbl.gx..::#{left}label.get_x(){backspace}{Left}
+:*:lbl.gy..::#{left}label.get_y(){backspace}{Left}
+:*:lbl.scolor..::#{left}label.set_color(){backspace}{Left}
+:*:lbl.ssize..::#{left}label.set_size(){backspace}{Left}
+:*:lbl.sstyle..::#{left}label.set_style(){backspace}{Left}
+:*:lbl.stext..::#{left}label.set_text(){backspace}{Left}
+:*:lbl.stalign..::#{left}label.set_textalign(){backspace}{Left}
+:*:lbl.stcolor..::#{left}label.set_textcolor(){backspace}{Left}
+:*:lbl.sttip..::#{left}label.set_tooltip(){backspace}{Left}
+:*:lbl.sx..::#{left}label.set_x(){backspace}{Left}
+:*:lbl.sxloc..::#{left}label.set_xloc(){backspace}{Left}
+:*:lbl.sxy..::#{left}label.set_xy(){backspace}{Left}
+:*:lbl.sy..::#{left}label.set_y(){backspace}{Left}
+:*:lbl.syloc..::#{left}label.set_yloc(){backspace}{Left}
 :*:lbl.adown..::label.style_arrowdown
 :*:lbl.aup..::label.style_arrowup
 :*:lbl.scircle..::label.style_circle
@@ -1240,32 +1240,32 @@ return
 :*:lbl.sxcross..::label.style_xcross
 					
 ;	Line Functions
-:*:l.copy..::line.copy(){right}{backspace}{Left}
-:*:l.delete..::line.delete(){right}{backspace}{Left}
-:*:l.gprice..::line.get_price(){right}{backspace}{Left}
-:*:l.gx1..::line.get_x1(){right}{backspace}{Left}
-:*:l.gx2..::line.get_x2(){right}{backspace}{Left}
-:*:l.gy1..::line.get_y1(){right}{backspace}{Left}
-:*:l.gy2..::line.get_y2(){right}{backspace}{Left}
-:*:l.sccolor..::line.set_color(){right}{backspace}{Left}
-:*:l.sextend..::line.set_extend(){right}{backspace}{Left}
-:*:l.sstyle..::line.set_style(){right}{backspace}{Left}
-:*:l.swidth..::line.set_width(){right}{backspace}{Left}
-:*:l.sx1..::line.set_x1(){right}{backspace}{Left}
-:*:l.sx2..::line.set_x2(){right}{backspace}{Left}
-:*:l.sxloc..::line.set_xloc(){right}{backspace}{Left}
-:*:l.sxy1..::line.set_xy1(){right}{backspace}{Left}
-:*:l.sxy2..::line.set_xy2(){right}{backspace}{Left}
-:*:l.sy1..::line.set_y1(){right}{backspace}{Left}
-:*:l.sy2..::line.set_y2(){right}{backspace}{Left}
+:*:l.copy..::#{left}line.copy(){backspace}{Left}
+:*:l.delete..::#{left}line.delete(){backspace}{Left}
+:*:l.gprice..::#{left}line.get_price(){backspace}{Left}
+:*:l.gx1..::#{left}line.get_x1(){backspace}{Left}
+:*:l.gx2..::#{left}line.get_x2(){backspace}{Left}
+:*:l.gy1..::#{left}line.get_y1(){backspace}{Left}
+:*:l.gy2..::#{left}line.get_y2(){backspace}{Left}
+:*:l.sccolor..::#{left}line.set_color(){backspace}{Left}
+:*:l.sextend..::#{left}line.set_extend(){backspace}{Left}
+:*:l.sstyle..::#{left}line.set_style(){backspace}{Left}
+:*:l.swidth..::#{left}line.set_width(){backspace}{Left}
+:*:l.sx1..::#{left}line.set_x1(){backspace}{Left}
+:*:l.sx2..::#{left}line.set_x2(){backspace}{Left}
+:*:l.sxloc..::#{left}line.set_xloc(){backspace}{Left}
+:*:l.sxy1..::#{left}line.set_xy1(){backspace}{Left}
+:*:l.sxy2..::#{left}line.set_xy2(){backspace}{Left}
+:*:l.sy1..::#{left}line.set_y1(){backspace}{Left}
+:*:l.sy2..::#{left}line.set_y2(){backspace}{Left}
 
 					
 ;	LineFill Functions
-:*:lf.del..::linefill.delete(){right}{backspace}{Left}
-:*:lf.gl1..::linefill.get_line1(){right}{backspace}{Left}
-:*:lf.gl2..::linefill.get_line2(){right}{backspace}{Left}
-:*:lf.new..::linefill.new(){right}{backspace}{Left}
-:*:lf.sc..::linefill.set_color(){right}{backspace}{Left}
+:*:lf.del..::#{left}linefill.delete(){backspace}{Left}
+:*:lf.gl1..::#{left}linefill.get_line1(){backspace}{Left}
+:*:lf.gl2..::#{left}linefill.get_line2(){backspace}{Left}
+:*:lf.new..::#{left}linefill.new(){backspace}{Left}
+:*:lf.sc..::#{left}linefill.set_color(){backspace}{Left}
 					
 ;	Barstate.is*****
 :*:ifbs.il..::if barstate.islast`n`t
@@ -1283,30 +1283,30 @@ return
 :*:bs.irt..::barstate.realtime
 					
 ; Request.Security / Runtime.Error
-:*:r.s..::request.security(){right}{backspace}{Left}
-:*:r.sltf..::request.security_lower_tf(){right}{backspace}{Left}
-:*:rt.e..::runtime.error(){right}{backspace}{Left}
-:*:rt.es..::switch`n`t {=}{>} runtime.error(){right}{backspace}{Left}
+:*:r.s#{left}..::request.security(){backspace}{Left}
+:*:r.sltf..::#{left}request.security_lower_tf(){backspace}{Left}
+:*:rt.e#{left}..::runtime.error(){backspace}{Left}
+:*:rt.es..::#{left}switch`n`t {=}{>} runtime.error(){backspace}{Left}
 					
 ;	Strings
-:*:s.con..::str.contains(){right}{backspace}{Left}
-:*:s.ewith..::str.endswith(){right}{backspace}{Left}
-:*:s.for..::str.format(){right}{backspace}{Left}
-:*:s.for..::str.format_time(){right}{backspace}{Left}
-:*:s.len..::str.length(){right}{backspace}{Left}
-:*:s.lower..::str.lower(){right}{backspace}{Left}
-:*:s.match..::str.match(){right}{backspace}{Left}
-:*:s.pos..::str.pos(){right}{backspace}{Left}
-:*:s.r..::str.replace(){right}{backspace}{Left}
-:*:s.rall..::str.replace_all(){right}{backspace}{Left}
-:*:s.split..::str.split(){right}{backspace}{Left}
-:*:s.swith..::str.startswith(){right}{backspace}{Left}
-:*:s.sstr..::str.substring(){right}{backspace}{Left}
-:*:s.tn..::str.tonumber(){right}{backspace}{Left}
-:*:s.tn..::str.tonumber(){right}{backspace}{Left}
-:*:s.tstr..::str.tostring(){right}{backspace}{Left}
-:*:s.ts..::str.tostring(){right}{backspace}{Left}
-:*:s.up..::str.upper(){right}{backspace}{Left}
+:*:s.con..::#{left}str.contains(){backspace}{Left}
+:*:s.ewith..::#{left}str.endswith(){backspace}{Left}
+:*:s.for..::#{left}str.format(){backspace}{Left}
+:*:s.for..::#{left}str.format_time(){backspace}{Left}
+:*:s.len..::#{left}str.length(){backspace}{Left}
+:*:s.lower..::#{left}str.lower(){backspace}{Left}
+:*:s.match..::#{left}str.match(){backspace}{Left}
+:*:s.pos..::#{left}str.pos(){backspace}{Left}
+:*:s.re..::#{left}str.replace(){backspace}{Left}
+:*:s.rall..::#{left}str.replace_all(){backspace}{Left}
+:*:s.split..::#{left}str.split(){backspace}{Left}
+:*:s.swith..::#{left}str.startswith(){backspace}{Left}
+:*:s.sstr..::#{left}str.substring(){backspace}{Left}
+:*:s.tn..::#{left}str.tonumber(){backspace}{Left}
+:*:s.tn..::#{left}str.tonumber(){backspace}{Left}
+:*:s.tstr..::#{left}str.tostring(){backspace}{Left}
+:*:s.ts..::#{left}str.tostring(){backspace}{Left}
+:*:s.up..::#{left}str.upper(){backspace}{Left}
 					
 ;	Strategy Series
 :*:s.acurrency..::strategy.account_currency
@@ -1345,43 +1345,43 @@ return
 :*:s.wtrades..::strategy.wintrades
 					
 ;	Strategy Funs
-:*:s.entry..::strategy.entry(){right}{backspace}{Left}
-:*:s.exit..::strategy.exit(){right}{backspace}{Left}
-:*:s.order..::strategy.order(){right}{backspace}{Left}
-:*:s.cancel..::strategy.cancel(){right}{backspace}{Left}
-:*:s.cancelall..::strategy.cancel_all()
-:*:s.close..::strategy.close(){right}{backspace}{Left}
-:*:s.closeall..::strategy.close_all(){right}{backspace}{Left}
-:*:s.ctcomm..::strategy.closedtrades.commission(){right}{backspace}{Left}
-:*:s.ct.ebindex..::strategy.closedtrades.entry_bar_index(){right}{backspace}{Left}
-:*:s.ct.size..::strategy.closedtrades.size(){right}{backspace}{Left}
-:*:s.ct.eid..::strategy.closedtrades.entry_id(){right}{backspace}{Left}
-:*:s.ct.eprice..::strategy.closedtrades.entry_price(){right}{backspace}{Left}
-:*:s.ct.etime..::strategy.closedtrades.entry_time(){right}{backspace}{Left}
-:*:s.ct.ebindex..::strategy.closedtrades.exit_bar_index(){right}{backspace}{Left}
-:*:s.ct.eid..::strategy.closedtrades.exit_id(){right}{backspace}{Left}
-:*:s.ct.eprice..::strategy.closedtrades.exit_price(){right}{backspace}{Left}
-:*:s.ct.ettime..::strategy.closedtrades.exit_time(){right}{backspace}{Left}
-:*:s.ct.mddown..::strategy.closedtrades.max_drawdown(){right}{backspace}{Left}
-:*:s.ct.mrunup..::strategy.closedtrades.max_runup(){right}{backspace}{Left}
-:*:s.ct.profit..::strategy.closedtrades.profit(){right}{backspace}{Left}
-:*:s.ot.comm..::strategy.opentrades.commission(){right}{backspace}{Left}
-:*:s.ot.ebindex..::strategy.opentrades.entry_bar_index(){right}{backspace}{Left}
-:*:s.ot.eid..::strategy.opentrades.entry_id(){right}{backspace}{Left}
-:*:s.ot.eprice..::strategy.opentrades.entry_price(){right}{backspace}{Left}
-:*:s.ot.etime..::strategy.opentrades.entry_time(){right}{backspace}{Left}
-:*:s.ot.mddown..::strategy.opentrades.max_drawdown(){right}{backspace}{Left}
-:*:s.ot.mrunup..::strategy.opentrades.max_runup(){right}{backspace}{Left}
-:*:s.ot.profit..::strategy.opentrades.profit(){right}{backspace}{Left}
-:*:s.ot.size..::strategy.opentrades.size(){right}{backspace}{Left}
-:*:s.r.aeid..::strategy.risk.allow_entry_in(){right}{backspace}{Left}
-:*:s.r.mcldays..::strategy.risk.max_cons_loss_days(){right}{backspace}{Left}
-:*:s.r.mddown..::strategy.risk.max_drawdown(){right}{backspace}{Left}
-:*:s.r.miforders..::strategy.risk.max_intraday_filled_orders(){right}{backspace}{Left}
-:*:s.r.miloss..::strategy.risk.max_intraday_loss(){right}{backspace}{Left}
-:*:s.r.mpsize..::strategy.risk.max_position_size(){right}{backspace}{Left}
-:*:s.ctaccount..::strategy.convert_to_account(){right}{backspace}{Left}
-:*:s.ctsymbol..::strategy.convert_to_symbol(){right}{backspace}{Left}
+:*:s.entry..::#{left}strategy.entry(){backspace}{Left}
+:*:s.exit..::#{left}strategy.exit(){backspace}{Left}
+:*:s.order..::#{left}strategy.order(){backspace}{Left}
+:*:s.cancel..::#{left}strategy.cancel(){backspace}{Left}
+:*:s.cancelall..::#{left}strategy.cancel_all()
+:*:s.close..::#{left}strategy.close(){backspace}{Left}
+:*:s.closeall..::#{left}strategy.close_all(){backspace}{Left}
+:*:s.ctcomm..::#{left}strategy.closedtrades.commission(){backspace}{Left}
+:*:s.ct.ebindex..::#{left}strategy.closedtrades.entry_bar_index(){backspace}{Left}
+:*:s.ct.size..::#{left}strategy.closedtrades.size(){backspace}{Left}
+:*:s.ct.eid..::#{left}strategy.closedtrades.entry_id(){backspace}{Left}
+:*:s.ct.eprice..::#{left}strategy.closedtrades.entry_price(){backspace}{Left}
+:*:s.ct.etime..::#{left}strategy.closedtrades.entry_time(){backspace}{Left}
+:*:s.ct.ebindex..::#{left}strategy.closedtrades.exit_bar_index(){backspace}{Left}
+:*:s.ct.eid..::#{left}strategy.closedtrades.exit_id(){backspace}{Left}
+:*:s.ct.eprice..::#{left}strategy.closedtrades.exit_price(){backspace}{Left}
+:*:s.ct.ettime..::#{left}strategy.closedtrades.exit_time(){backspace}{Left}
+:*:s.ct.mddown..::#{left}strategy.closedtrades.max_drawdown(){backspace}{Left}
+:*:s.ct.mrunup..::#{left}strategy.closedtrades.max_runup(){backspace}{Left}
+:*:s.ct.profit..::#{left}strategy.closedtrades.profit(){backspace}{Left}
+:*:s.ot.comm..::#{left}strategy.opentrades.commission(){backspace}{Left}
+:*:s.ot.ebindex..::#{left}strategy.opentrades.entry_bar_index(){backspace}{Left}
+:*:s.ot.eid..::#{left}strategy.opentrades.entry_id(){backspace}{Left}
+:*:s.ot.eprice..::#{left}strategy.opentrades.entry_price(){backspace}{Left}
+:*:s.ot.etime..::#{left}strategy.opentrades.entry_time(){backspace}{Left}
+:*:s.ot.mddown..::#{left}strategy.opentrades.max_drawdown(){backspace}{Left}
+:*:s.ot.mrunup..::#{left}strategy.opentrades.max_runup(){backspace}{Left}
+:*:s.ot.profit..::#{left}strategy.opentrades.profit(){backspace}{Left}
+:*:s.ot.size..::#{left}strategy.opentrades.size(){backspace}{Left}
+:*:s.r.aeid..::#{left}strategy.risk.allow_entry_in(){backspace}{Left}
+:*:s.r.mcldays..::#{left}strategy.risk.max_cons_loss_days(){backspace}{Left}
+:*:s.r.mddown..::#{left}strategy.risk.max_drawdown(){backspace}{Left}
+:*:s.r.miforders..::#{left}strategy.risk.max_intraday_filled_orders(){backspace}{Left}
+:*:s.r.miloss..::#{left}strategy.risk.max_intraday_loss(){backspace}{Left}
+:*:s.r.mpsize..::#{left}strategy.risk.max_position_size(){backspace}{Left}
+:*:s.ctaccount..::#{left}strategy.convert_to_account(){backspace}{Left}
+:*:s.ctsymbol..::#{left}strategy.convert_to_symbol(){backspace}{Left}
 
 					
 ;	Syminfo
@@ -1441,7 +1441,7 @@ return
 :*:tf.ismin..::timeframe.isminutes
 :*:tf.imon..::timeframe.ismonthly
 :*:tf.issec..::timeframe.isseconds
-:*:tf.insec..::timeframe.in_seconds(){right}{backspace}{Left}
+:*:tf.insec..::#{left}timeframe.in_seconds(){backspace}{Left}
 :*:tf.isweek..::timeframe.isweekly
 :*:tf.multi..::timeframe.multiplier
 :*:tf.period..::timeframe.period
@@ -1459,25 +1459,25 @@ return
 :*:yl.p..::yloc.price
 					
 ;	Tables
-:*:t.cell..::table.cell(table,0,0,''){right}{backspace}{left}
-:*:t.csbgc..::table.cell_set_bgcolor(){right}{backspace}{left}
-:*:t.csh..::table.cell_set_height(){right}{backspace}{left}
-:*:t.cstext..::table.cell_set_text(){right}{backspace}{left}
-:*:t.cstc..::table.cell_set_text_color(){right}{backspace}{left}
-:*:t.cstha..::table.cell_set_text_halign(){right}{backspace}{left}
-:*:t.csts..::table.cell_set_text_size(){right}{backspace}{left}
-:*:t.cstva..::table.cell_set_text_valign(){right}{backspace}{left}
-:*:t.cstt..::table.cell_set_tooltip(){right}{backspace}{left}
-:*:t.csw..::table.cell_set_width(){right}{backspace}{left}
-:*:t.clear..::table.clear(){right}{backspace}{left}
-:*:t.del..::table.delete(){right}{backspace}{left}
-:*:t.mcells..::table.merge_cells(){right}{backspace}{left}
-:*:t.sbgc..::table.set_bgcolor(){right}{backspace}{left}
-:*:t.sbc..::table.set_border_color(){right}{backspace}{left}
-:*:t.sbw..::table.set_border_width(){right}{backspace}{left}
-:*:t.sfc..::table.set_frame_color(){right}{backspace}{left}
-:*:t.sfw..::table.set_frame_width(){right}{backspace}{left}
-:*:t.spos..::table.set_position(){right}{backspace}{left}
+:*:t.cell..::#{left}table.cell(table,0,0,''){backspace}{left}
+:*:t.csbgc..::#{left}table.cell_set_bgcolor(){backspace}{left}
+:*:t.csh..::#{left}table.cell_set_height(){backspace}{left}
+:*:t.cstext..::#{left}table.cell_set_text(){backspace}{left}
+:*:t.cstc..::#{left}table.cell_set_text_color(){backspace}{left}
+:*:t.cstha..::#{left}table.cell_set_text_halign(){backspace}{left}
+:*:t.csts..::#{left}table.cell_set_text_size(){backspace}{left}
+:*:t.cstva..::#{left}table.cell_set_text_valign(){backspace}{left}
+:*:t.cstt..::#{left}table.cell_set_tooltip(){backspace}{left}
+:*:t.csw..::#{left}table.cell_set_width(){backspace}{left}
+:*:t.clear..::#{left}table.clear(){backspace}{left}
+:*:t.del..::#{left}table.delete(){backspace}{left}
+:*:t.mcells..::#{left}table.merge_cells(){backspace}{left}
+:*:t.sbgc..::#{left}table.set_bgcolor(){backspace}{left}
+:*:t.sbc..::#{left}table.set_border_color(){backspace}{left}
+:*:t.sbw..::#{left}table.set_border_width(){backspace}{left}
+:*:t.sfc..::#{left}table.set_frame_color(){backspace}{left}
+:*:t.sfw..::#{left}table.set_frame_width(){backspace}{left}
+:*:t.spos..::#{left}table.set_position(){backspace}{left}
 :*:table.new..::var table table= table.new(position.top_right,columns = 1,rows = 1,color.new(chart.bg_color,40),`ncolor.new(chart.fg_color,40),1,color.new(chart.fg_color,40),1)`n
 
 ;	For Loop
